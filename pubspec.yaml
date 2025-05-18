@@ -1,0 +1,24 @@
+name: aquateam
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.17.0 <4.0.0'  # Actualizado para soportar 'super-parameters'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dio: ^5.4.0  # Versión actualizada con null safety
+  flutter_local_notifications: ^15.0.0  # Compatible con null safety
+  permission_handler: ^11.0.0  # Compatible con null safety
+  cupertino_icons: ^1.0.8  # Dependencia básica de Flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0  # Para análisis de código
+
+flutter:
+  uses-material-design: true
